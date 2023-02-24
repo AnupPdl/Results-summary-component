@@ -1,0 +1,35 @@
+@import url(https://fonts.google.com/specimen/Hanken+Grotesk);
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+}
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    margin: 50px;
+    
+}
+
+#first-box , #second-box{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid purple;
+    border-radius: 8px;
+    margin: 0;
+}
+
+#summary-box, #reaction-box, #memory-box, #verbal-box, #visual-box, #first-text, #third-text, #fourth-text{
+    border: 0px;
+    padding: 8px;
+}
+p{
+    text-align: center;
+}
+#second-text{
+    border-radius: 50%;
+    padding: 30px;
+    margin: 3px;
+}
